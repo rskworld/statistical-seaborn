@@ -1,6 +1,6 @@
 # Release v1.0.0 - Statistical Data Analysis with Seaborn
 
-**Release Date:** December 2024  
+**Release Date:** December 2025
 **Author:** RSK World  
 **Website:** https://rskworld.in  
 **Email:** help@rskworld.in  
