@@ -1,0 +1,16 @@
+# Author: RSK World
+# Website: https://rskworld.in
+# Email: help@rskworld.in
+# Phone: +91 93305 39277
+# Project: Statistical Data Analysis with Seaborn
+# Requirements file for Statistical Data Analysis with Seaborn project
+
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+jupyter>=1.0.0
+notebook>=6.4.0
+

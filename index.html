@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Author: RSK World
+    Website: https://rskworld.in
+    Email: help@rskworld.in
+    Phone: +91 93305 39277
+    Project: Statistical Data Analysis with Seaborn
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistical Data Analysis with Seaborn - RSK World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        .card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px 15px 0 0 !important;
+            padding: 20px;
+        }
+        .card-body {
+            padding: 30px;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+        .feature-list i {
+            color: #667eea;
+            margin-right: 10px;
+        }
+        .tech-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            margin: 5px;
+            background: #f0f0f0;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .author-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: 600;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                <h1 class="mb-0"><i class="fas fa-chart-bar"></i> Statistical Data Analysis with Seaborn</h1>
+                <p class="mb-0 mt-2">Comprehensive statistical visualization project with advanced plotting techniques</p>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3><i class="fas fa-info-circle text-info"></i> Project Description</h3>
+                        <p>This project demonstrates advanced statistical visualization techniques using Seaborn. It includes correlation matrices, distribution plots, box plots, violin plots, pair plots, and heatmaps. Perfect for exploratory data analysis and statistical insights.</p>
+                        
+                        <h3 class="mt-4"><i class="fas fa-star text-warning"></i> Features</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Correlation matrix heatmaps</li>
+                            <li><i class="fas fa-check-circle"></i> Distribution and density plots</li>
+                            <li><i class="fas fa-check-circle"></i> Box plots and violin plots</li>
+                            <li><i class="fas fa-check-circle"></i> Pair plots for multivariate analysis</li>
+                            <li><i class="fas fa-check-circle"></i> Statistical summary visualizations</li>
+                        </ul>
+
+                        <h3 class="mt-4"><i class="fas fa-code text-success"></i> Technologies Used</h3>
+                        <div>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Seaborn</span>
+                            <span class="tech-badge">Matplotlib</span>
+                            <span class="tech-badge">Pandas</span>
+                            <span class="tech-badge">NumPy</span>
+                            <span class="tech-badge">SciPy</span>
+                            <span class="tech-badge">Jupyter Notebook</span>
+                        </div>
+
+                        <h3 class="mt-4"><i class="fas fa-signal text-danger"></i> Difficulty Level</h3>
+                        <p><span class="badge bg-warning text-dark fs-6">Intermediate</span></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h4>Quick Links</h4>
+                                <a href="statistical_analysis.ipynb" class="btn btn-primary btn-lg w-100 mb-3" download>
+                                    <i class="fas fa-download"></i> Download Notebook
+                                </a>
+                                <a href="https://github.com/rskworld/statistical-seaborn" class="btn btn-outline-primary w-100 mb-3" target="_blank">
+                                    <i class="fab fa-github"></i> View on GitHub
+                                </a>
+                                <a href="https://rskworld.in" class="btn btn-outline-info w-100" target="_blank">
+                                    <i class="fas fa-globe"></i> Visit RSK World
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="author-info">
+                    <h4><i class="fas fa-user"></i> Author Information</h4>
+                    <p class="mb-1"><strong>RSK World</strong></p>
+                    <p class="mb-1"><i class="fas fa-globe"></i> Website: <a href="https://rskworld.in" target="_blank">https://rskworld.in</a></p>
+                    <p class="mb-1"><i class="fas fa-envelope"></i> Email: <a href="mailto:help@rskworld.in">help@rskworld.in</a></p>
+                    <p class="mb-0"><i class="fas fa-phone"></i> Phone: <a href="tel:+919330539277">+91 93305 39277</a></p>
+                </div>
+
+                <div class="mt-4">
+                    <h4><i class="fas fa-book"></i> Getting Started</h4>
+                    <ol>
+                        <li>Install the required packages: <code>pip install -r requirements.txt</code></li>
+                        <li>Open the Jupyter notebook: <code>jupyter notebook statistical_analysis.ipynb</code></li>
+                        <li>Run all cells to generate visualizations</li>
+                        <li>Or use the Python scripts: <code>python main.py</code></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
