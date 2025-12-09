@@ -30,10 +30,13 @@ wheels/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# Data files
-*.csv
+# Data files (excluding example data)
+# *.csv
 *.xlsx
 *.xls
+# Allow example data files
+!example_data.csv
+!statistical_data.csv
 
 # Generated images
 *.png
